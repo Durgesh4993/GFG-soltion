@@ -3,7 +3,6 @@ class Solution {
     int ans =  INT_MIN ; 
     
   public:
-  
   void inorder(Node * root , int k)
     {
         if(root == NULL)
