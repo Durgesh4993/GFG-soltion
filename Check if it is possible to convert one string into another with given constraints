@@ -1,5 +1,6 @@
 class Solution {
 
+
   public:
 
     int isItPossible(string S, string T, int M, int N) {
