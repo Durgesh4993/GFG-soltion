@@ -1,6 +1,5 @@
 class Solution{
-public:
-    
+public: 
     long long nck(long long n, long long k){
 if(n == 0 || n < k) return 0;
 long long res = 1;
