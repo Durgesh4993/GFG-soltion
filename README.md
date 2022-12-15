@@ -1,1 +1,1 @@
-# GFG-soltion
+# GFG-soltions
