@@ -1,5 +1,4 @@
 void solve(vector<int> &arr, int n, vector<int>t, set<vector<int>>&st, int sum){
-
      if(sum==0){
 
          sort(t.begin(),t.end(),greater<int>());
