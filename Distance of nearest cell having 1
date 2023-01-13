@@ -1,6 +1,7 @@
 class Pair{
     int i_part;
     int j_part;
+    
     int step;
     Pair(int i,int j,int s){
         i_part = i;
