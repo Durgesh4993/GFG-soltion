@@ -9,6 +9,7 @@ bool canPair(vector<int> nums, int k) {
                 fre[(k-num1)%k]--;
             } else {
                 fre[num1]++;
+                
             }
         }
         for(int f : fre) {
