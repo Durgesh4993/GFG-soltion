@@ -1,7 +1,6 @@
 bool canPair(vector<int> nums, int k) {
         // Code here.
         if(nums.size()%2==1) return false;
-        
         vector<int> fre(100001,0);
         for(int num : nums) {
             int num1 = num%k;
