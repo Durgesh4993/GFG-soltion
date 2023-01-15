@@ -1,5 +1,4 @@
-class Solution{
-    
+class Solution{ 
     // temp: input array
     // n: size of array
     //Function to rearrange  the array elements alternately.
