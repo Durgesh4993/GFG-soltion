@@ -1,5 +1,4 @@
 class Solution {
-
     int median(int matrix[][], int R, int C) {
 
         // code here
