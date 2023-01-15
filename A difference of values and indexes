@@ -1,7 +1,6 @@
 int maxDistance(int arr[], int n) 
 
     { 
-
         // Complete the function
 
         int a = INT_MIN, b = INT_MAX, c = INT_MIN, d = INT_MAX;
