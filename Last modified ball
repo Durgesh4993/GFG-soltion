@@ -5,6 +5,5 @@ class Solution {
             if(A[i]<9)
                 return i+1;
         }
-        
      }
 };
