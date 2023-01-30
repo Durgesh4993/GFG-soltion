@@ -7,6 +7,7 @@ class Solution
         Node* hare = head, *tort = head;
         bool loop = false;
         while(hare != NULL && hare->next != NULL){
+        
             hare = hare->next->next;
             tort = tort->next;
             if(hare == tort){
