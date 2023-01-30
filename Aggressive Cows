@@ -8,6 +8,7 @@ bool isPossible(int mid,int k,vector<int>&stalls){
             cowCount++;
             if(cowCount==k){
                 return true;
+                
             }
             lastPos=stalls[i];
         }
