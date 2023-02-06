@@ -4,6 +4,7 @@ class Solution {
         
         vis[node] = 1;
         
+        
         tin[node] = low[node] = timer++;
         
         int child = 0;
