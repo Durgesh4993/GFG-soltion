@@ -5,6 +5,7 @@ public:
   long long countSubstring(string s){
 
     // code here
+    
 
     long long ans=0;
 
