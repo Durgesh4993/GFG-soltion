@@ -9,6 +9,7 @@ class Solution {
             if(__gcd(ans,i)==1){
             ans *= i;
             
+            
             c++;
             }
         }
