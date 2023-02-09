@@ -6,7 +6,6 @@ public:
     {
 
         Node* tmp=new Node(0);
-
         Node* res=tmp;
 
         
