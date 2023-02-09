@@ -8,6 +8,7 @@ public:
         if(root==NULL)return;
         if(root->data==trt && !flag)
         {
+        
             g=gg;
             start=root;
             return;
