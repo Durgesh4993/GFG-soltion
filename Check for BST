@@ -1,0 +1,23 @@
+class Solution
+{
+    public:
+    //Function to check whether a Binary Tree is BST or not.
+    bool isBST(Node* root)
+    {
+        // Your code here
+        Node *prev = NULL;
+        function<bool(Node *, Node *&)> isBSTUtil = [&](Node *n, Node *&p) -> bool {
+            if(n) {
+                if(!isBSTUtil(n->left, p))
+                    return false;
+                if(prev && n->data <= prev->data)
+                    return false;
+                prev = n;
+                return isBSTUtil(n->right, p);
+            }
+            return true;
+        };
+        bool res = isBSTUtil(root, prev);
+        return res;
+    }
+};
