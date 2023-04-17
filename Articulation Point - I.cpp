@@ -1,8 +1,7 @@
 class Solution {
   public:
     void dfs(int node, int parent, int& timer, vector<int> adj[], vector<int>& vis, vector<int>& tin, vector<int>& low, vector<int>& isarti){       
-        vis[node] = 1;
-            
+        vis[node] = 1;          
         tin[node] = low[node] = timer++;
         
         int child = 0;
