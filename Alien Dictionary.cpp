@@ -2,6 +2,7 @@ class Solution{
     public:
     string findOrder(string dict[], int N, int K) {
         //code here
+        
         unordered_map<int,vector<int>>adj;
         vector<int>indegree(K,0);
         for(int i=0;i<N-1;i++){
