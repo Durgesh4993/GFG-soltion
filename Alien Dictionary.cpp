@@ -6,6 +6,7 @@ class Solution{
         vector<int>indegree(K,0);
         for(int i=0;i<N-1;i++){
             string str1=dict[i],str2=dict[i+1];
+            
             int size=min(str1.size(),str2.size());
             for(int j=0;j<size;j++){
                 if(str1[j]!=str2[j]){
