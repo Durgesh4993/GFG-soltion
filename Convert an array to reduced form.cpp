@@ -4,7 +4,6 @@ class Solution {
         int temp[]=arr.clone();
         Arrays.sort(temp);  
         int ans[]=new int[n];
-
         for(int i=0;i<n;i++)
 
         {
