@@ -3,7 +3,6 @@ class Solution {
         //Code here  
         int temp[]=arr.clone();
         Arrays.sort(temp);  
-
         int ans[]=new int[n];
 
         for(int i=0;i<n;i++)
