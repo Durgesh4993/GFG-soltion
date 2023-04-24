@@ -5,7 +5,6 @@ int maxDistance(int arr[], int n)
         for(int i=0; i<n; i++)
         {
             a = max(a, arr[i]-i);
-
             b = min(b, arr[i]-i);
 
  
