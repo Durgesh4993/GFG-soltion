@@ -7,7 +7,6 @@ int maxDistance(int arr[], int n)
             a = max(a, arr[i]-i);
             b = min(b, arr[i]-i);
             c = max(c, arr[i]+i);
-
             d = min(d, arr[i]+i);
 
         }
