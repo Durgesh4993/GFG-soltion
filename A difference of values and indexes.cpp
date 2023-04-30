@@ -12,5 +12,4 @@ int maxDistance(int arr[], int n)
         }
 
         return max(a-b, c-d);
-
     }
