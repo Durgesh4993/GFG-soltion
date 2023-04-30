@@ -4,7 +4,6 @@ class Solution {
     pair<long long,long long> dfs(int node,unordered_map<int,vector<int>> &child,vector<int> &A)//pair first min,second max
     {
         if(child.find(node)==child.end())
-
         {
 
             ans=max(ans,(long long)A[node]);
