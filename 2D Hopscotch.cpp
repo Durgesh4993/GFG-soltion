@@ -19,6 +19,7 @@ public:
                 if(i+1<n)
                 {
                     if(j-1>=0)
+                        
                         sum+=mat[i+1][j-1];
                     if(j+1<m)
                         sum+=mat[i+1][j+1];
