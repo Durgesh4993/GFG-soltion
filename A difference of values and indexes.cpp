@@ -9,5 +9,6 @@ int maxDistance(int arr[], int n)
             c = max(c, arr[i]+i);
             d = min(d, arr[i]+i);
         }
+    
         return max(a-b, c-d);
     }
