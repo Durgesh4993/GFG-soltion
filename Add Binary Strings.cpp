@@ -1,9 +1,7 @@
 class Solution{
 public:	
 	string addBinary(string A, string B) {
-	    // your code here
-	    
-	    
+
 	    int carry = 0, ind = 0;
 	    string ans;
 	    reverse(A.begin(), A.end());
