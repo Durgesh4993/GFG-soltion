@@ -9,8 +9,7 @@ class Solution {
             ans *= i;                        
             c++;
             }
-        }       
-      
+        }             
         return ans;
     }
 };
