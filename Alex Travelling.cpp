@@ -1,6 +1,5 @@
 class Solution {
   public:
-
     int minimumCost(vector<vector<int>>& flights, int n, int k) {
 
         // code here
