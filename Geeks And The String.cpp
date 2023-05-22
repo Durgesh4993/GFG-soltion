@@ -3,7 +3,6 @@ class Solution {
     string removePair(string s) {
 
         stack<char>st;
-
         
 
         string ans;
