@@ -1,6 +1,5 @@
 class Solution {
   public:
-
     string removePair(string s) {
 
         stack<char>st;
