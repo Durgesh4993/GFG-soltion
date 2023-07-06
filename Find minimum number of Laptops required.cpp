@@ -8,6 +8,7 @@ class Solution {
         }
         sort(p.begin(),p.end());
         int ans=1;
+      
         for(int i=1;i<p.size();i++){
             p[i].second+=p[i-1].second;
             ans=max(ans, p[i].second);
