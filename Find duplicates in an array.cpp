@@ -8,7 +8,6 @@ class Solution{
             mp[arr[i]]++;
         }
       
-
       
         for(auto x : mp) {
             if(x.second > 1) {
