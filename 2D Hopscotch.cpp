@@ -10,6 +10,7 @@ public:
                 sum+=mat[i-1][j];
             if(i+1<n)
                 sum+=mat[i+1][j];
+            
             if(j-1>=0)
                 sum+=mat[i][j-1];
             if(j+1<m)
