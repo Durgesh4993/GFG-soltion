@@ -1,6 +1,7 @@
 class Solution {
   public:
     vector<Node*> findAnagrams(struct Node* head, string s) {
+      
         vector<Node*> ans;
       
         Node* start=head,*end=head;
