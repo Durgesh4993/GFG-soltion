@@ -3,6 +3,7 @@ class Solution {
     vector<Node*> findAnagrams(struct Node* head, string s) {
         vector<Node*> ans;
         Node* start=head,*end=head;
+      
         int n=s.length();
         
         // pattern string
