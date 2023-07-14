@@ -7,6 +7,7 @@ class Solution {
         
         // pattern string
         unordered_map<char,int> mp1;
+      
         for(auto it:s) mp1[it]++;
         int count1=mp1.size();
       
