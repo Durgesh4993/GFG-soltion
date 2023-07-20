@@ -13,6 +13,7 @@ public:
 	        
 	        ans += to_string(carry%2);
 	        carry = (carry >= 2) ? 1 : 0;
+		    
 	        ind++;
 		    
 	    }
