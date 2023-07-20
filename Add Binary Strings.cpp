@@ -6,6 +6,7 @@ public:
 	    string ans;
 	    reverse(A.begin(), A.end());
 	    reverse(B.begin(), B.end());
+		
 	    while(ind < A.length() || ind < B.length()) {
 		    
 	        if(ind < A.length()) carry += (A[ind] - '0');
