@@ -5,6 +5,7 @@ public:
 	    int carry = 0, ind = 0;
 		
 	    string ans;
+		
 	    reverse(A.begin(), A.end());
 		
 	    reverse(B.begin(), B.end());
