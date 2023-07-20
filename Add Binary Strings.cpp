@@ -12,6 +12,7 @@ public:
 	        if(ind < B.length()) carry += (B[ind] - '0');
 	        
 	        ans += to_string(carry%2);
+		    
 	        carry = (carry >= 2) ? 1 : 0;
 		    
 	        ind++;
