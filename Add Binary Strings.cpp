@@ -14,6 +14,7 @@ public:
 	        ans += to_string(carry%2);
 	        carry = (carry >= 2) ? 1 : 0;
 	        ind++;
+		    
 	    }
 	    if(carry) ans += to_string(carry%2);
 	    while(ans.length() > 0 && ans.back() == '0') ans.pop_back();
