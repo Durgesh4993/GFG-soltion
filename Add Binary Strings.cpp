@@ -9,6 +9,7 @@ public:
 	    while(ind < A.length() || ind < B.length()) {
 		    
 	        if(ind < A.length()) carry += (A[ind] - '0');
+		    
 	        if(ind < B.length()) carry += (B[ind] - '0');
 	        
 	        ans += to_string(carry%2);
