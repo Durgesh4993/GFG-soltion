@@ -10,6 +10,7 @@ class Solution {
             ans *= i;           
               
             c++;
+              
             }
           
         }                 
