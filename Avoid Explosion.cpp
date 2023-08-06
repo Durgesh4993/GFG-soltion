@@ -10,6 +10,7 @@ class Solution {
         if(node==parent[node])
           
            return node;
+      
         return parent[node] = findParent(parent[node]);   
     }
     void Union(int u,int v)
