@@ -13,6 +13,7 @@ class Solution {
         return parent[node] = findParent(parent[node]);   
     }
     void Union(int u,int v)
+
     {
         int ul_parentU = findParent(u);
         int ul_parentV = findParent(v);
