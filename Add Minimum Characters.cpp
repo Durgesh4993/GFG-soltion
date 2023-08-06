@@ -3,6 +3,7 @@ class Solution{
 public:
 
  int addMinChar(string str){    
+  
         string s;
         int N=str.length();
         int low=0,high=N-1,count=0;
