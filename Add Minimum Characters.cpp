@@ -18,6 +18,7 @@ public:
                 count++;
              
                 low++;
+             
                 high--;
             }
            else
