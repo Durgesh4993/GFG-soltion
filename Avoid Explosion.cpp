@@ -5,6 +5,7 @@ class Solution {
     vector<int> parent;
 
     int findParent(int node)
+
     {
         if(node==parent[node])
            return node;
