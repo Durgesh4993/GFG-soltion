@@ -8,6 +8,7 @@ class Solution {
         long long int ans = N * (N-1);
       
         int c=0;
+      
         for(long long int i=N-2; i>2 && c<2; i--){          
             if(__gcd(ans,i)==1){           
               
