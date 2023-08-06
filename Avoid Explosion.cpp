@@ -1,4 +1,5 @@
 class Solution {
+
   public:
     vector<int> parent;
     int findParent(int node)
