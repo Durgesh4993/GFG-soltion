@@ -1,6 +1,7 @@
 class Solution{   
 
 public:
+
  int addMinChar(string str){    
         string s;
         int N=str.length();
