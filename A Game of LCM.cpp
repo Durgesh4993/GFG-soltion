@@ -1,5 +1,4 @@
 class Solution {
-
   public:
 
     long long maxGcd(int N) {
