@@ -1,6 +1,5 @@
 class Solution{
 public:
-
     Node* find(Node* root,int target){
 
         if(root==NULL)return NULL;
