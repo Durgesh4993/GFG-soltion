@@ -1,5 +1,4 @@
 class Solution{
-
 public:
 
     Node* find(Node* root,int target){
