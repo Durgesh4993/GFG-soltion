@@ -6,7 +6,6 @@ public:
         if(root->data>target)
         find(root->left,target);
         else 
-
         find(root->right,target);
 
         
