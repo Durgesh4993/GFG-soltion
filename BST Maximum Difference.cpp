@@ -2,7 +2,6 @@ class Solution{
 public:
     Node* find(Node* root,int target){
         if(root==NULL)return NULL;
-
         if(root->data==target)return root;
 
         if(root->data>target)
