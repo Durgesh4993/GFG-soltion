@@ -10,7 +10,6 @@ public:
     }
     void root_TO_target(Node* root,int target,int &ans){
         if(root->data==target)return;
-
         ans=ans+root->data;
 
         if(root->data>target)
