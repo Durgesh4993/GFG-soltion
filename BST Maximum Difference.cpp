@@ -8,7 +8,6 @@ public:
         else 
         find(root->right,target);
     }
-
     void root_TO_target(Node* root,int target,int &ans){
 
         if(root->data==target)return;
