@@ -2,6 +2,7 @@ class Solution
 {
 
     public:
+
         void Rearrange(int arr[], int n)
         {
             vector<int> neg;
