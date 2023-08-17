@@ -8,6 +8,7 @@
         for(auto &e : query){
          
             maxE = max(maxE, e);
+         
         }
         vector<int> isPrime ( maxE + 1, 1);
         isPrime[0] = 0;
