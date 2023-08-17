@@ -2,6 +2,7 @@
 
     {
         vector<int> ans(q, 0);
+     
         long long maxE = 0;
         
         for(auto &e : query){
