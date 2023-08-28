@@ -3,6 +3,7 @@ class Solution{
 public:
 
     int hopscotch(int n, int m, vector<vector<int>> mat, int ty, int i, int j)
+
     {
         int sum=0;
         if(ty==0)
