@@ -7,8 +7,7 @@ public:
         while(low<high){        
             if(str[high]==str[low])
             {             
-                count++;
-             
+                count++;             
                 low++;
              
                 high--;
