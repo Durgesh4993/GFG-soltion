@@ -3,8 +3,7 @@ public:
  int addMinChar(string str){    
         string s; 
         int N=str.length();
-        int low=0,high=N-1,count=0;
-  
+        int low=0,high=N-1,count=0;  
         while(low<high){
          
             if(str[high]==str[low])
