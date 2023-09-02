@@ -1,6 +1,5 @@
 class Solution{   
 public:
-
  int addMinChar(string str){    
   
         string s;
