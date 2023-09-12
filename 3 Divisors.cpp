@@ -1,5 +1,4 @@
  vector<int> threeDivisors(vector<long long> query, int q)
-
     {
         vector<int> ans(q, 0);
      
