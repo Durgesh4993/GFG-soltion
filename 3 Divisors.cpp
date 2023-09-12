@@ -16,8 +16,7 @@
                 isPrime[i] = isPrime[i - 1] + 1;
             }
             else{
-                isPrime[i] = isPrime[i - 1];
-                
+                isPrime[i] = isPrime[i - 1];                
             }
         }
 
