@@ -1,7 +1,6 @@
  vector<int> threeDivisors(vector<long long> query, int q)
     {
-        vector<int> ans(q, 0);
-     
+        vector<int> ans(q, 0); 
         long long maxE = 0;
         
         for(auto &e : query){
