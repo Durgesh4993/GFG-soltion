@@ -1,4 +1,5 @@
 class Solution {
+
 public:
    int maxCoins(int n, vector<int> &a) {
         a.push_back(1);
