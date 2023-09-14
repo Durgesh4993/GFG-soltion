@@ -7,6 +7,7 @@ public:
         a.push_back(1);
       
         a.insert(a.begin(),1);
+      
         vector<vector<int>>dp(n+2,vector<int>(n+2,0));
         int maxi=INT_MIN;
         for(int i=n;i>=1;i--){
