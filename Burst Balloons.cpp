@@ -3,6 +3,7 @@ class Solution {
 public:
 
    int maxCoins(int n, vector<int> &a) {
+      
         a.push_back(1);
         a.insert(a.begin(),1);
         vector<vector<int>>dp(n+2,vector<int>(n+2,0));
