@@ -13,7 +13,7 @@ public:
         
         {
             
-            if(curr->data < 0) // if we get a negative number put this number in front 
+            if(curr->data < 0)
             {
                 prev->next = curr->next; 
                 curr->next = head;
