@@ -4,6 +4,7 @@ class Solution{
 public:
 
     Node* sortList(Node* head)
+
     {
         Node *curr = head->next,*prev = head;  
         while(curr)
