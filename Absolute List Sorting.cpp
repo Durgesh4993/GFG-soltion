@@ -8,6 +8,7 @@ public:
     {
         
         Node *curr = head->next,*prev = head;  
+        
         while(curr)
         
         {
