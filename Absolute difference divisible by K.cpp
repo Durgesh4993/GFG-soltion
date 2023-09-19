@@ -14,8 +14,7 @@ class Solution {
             int cnt = it.second -1 ;
             
             ans += cnt*(cnt+1)/2 ;
-        }
-        
+        }        
         return ans ;
     }
 };
