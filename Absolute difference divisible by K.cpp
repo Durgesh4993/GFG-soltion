@@ -6,8 +6,7 @@ class Solution {
         {    
             mp[arr[i]%k]++ ;
         }       
-        long long ans = 0;
-        
+        long long ans = 0;      
         for(auto it : mp)
         {
             int cnt = it.second -1 ;
